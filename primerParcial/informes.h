@@ -22,4 +22,4 @@ int info_CalcularMontoSegunCuit(sContratacion listaContrataciones[],sPantalla li
 int info_ContratacionesPorClienteyMonto(sContratacion listaContrataciones[],sPantalla listaPantallas[], int lenContrataciones,int lenPantallas);
 int pant_InitLista(sPantalla listaPantallas[], int limite);
 int info_Contar_Cantidad_Clientes_byCuit(sContratacion listaContrataciones[],int lenghtContrataciones, int* lenClientes);
-int info_PrintClientes(sCliente listaClientes[], int limite);
+//int info_PrintClientes(sCliente listaClientes[], int limite);

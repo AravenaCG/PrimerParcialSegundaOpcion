@@ -15,7 +15,7 @@
 int main()
 {
 
-   char bufferOpcion[50];
+    char bufferOpcion[50];
     char bufferIdABorrar[50];
     char bufferIdAModificar[50];
     char bEleccionPantalla[50];
@@ -102,7 +102,7 @@ int main()
 
             cliente_InitLista(listaClientes, limiteClientes);
             cliente_Cargar_Clientes_ByCuit(listaCOntrataciones,LEN_CONTRATACION,listaClientes,limiteClientes);
-            info_PrintClientes(listaClientes,limiteClientes);
+       //     info_PrintClientes(listaClientes,limiteClientes);
 
             break;
         }

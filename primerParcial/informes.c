@@ -205,10 +205,6 @@ int info_Contar_Cantidad_Clientes_byCuit(sContratacion* listaContrataciones,int 
             }
         }
         *lenClientes = totalContrataciones - cuitRepetidos;
-
-        /*char arrayCuitClientes[contadorClientes][50];
-        *float arrayAcumuladorImporte[contadorClientes];
-        *char bufferCuit[50];*/
     }
     return retorno;
 }
@@ -223,15 +219,13 @@ int info_Contar_Cantidad_Clientes_byCuit(sContratacion* listaContrataciones,int 
  */
 
 
-int info_PrintClientes(sCliente listaClientes[], int limite)
+/**int info_PrintClientes(sCliente listaClientes[], int limite)
 {
     int retorno = -1;
     int i;
     if(listaClientes != NULL && limite > 0)
     {
-        printf("*************************************************************\n");
         printf("*~~~~~~~~~~~~~~~~~LISTA DE CLIENTES~~~~~~~~~~~~~~~~~~~*\n");
-        printf("*************************************************************\n");
         for(i=0; i<limite ; i++)
         {
             if(listaClientes[i].flag_ocupado == INDICE_OCUPADO)
@@ -249,4 +243,4 @@ int info_PrintClientes(sCliente listaClientes[], int limite)
 
     }
     return retorno;
-}
+}*/
